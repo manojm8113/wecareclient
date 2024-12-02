@@ -1,6 +1,6 @@
 import axios from 'axios';
-
-const SampleUrl = 'http://localhost:5000';
+const SampleUrl = 'https://wecareservers.onrender.com/';
+// const SampleUrl = 'http://localhost:5000';
 // Retrieve token and password from localStorage
 const hospitaldatas = JSON.parse(localStorage.getItem("persist:hospitaldatas"));
 const loginInfo = hospitaldatas?.login && JSON.parse(hospitaldatas.login)?.LoginInformation?.[0];
